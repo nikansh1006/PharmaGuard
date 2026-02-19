@@ -11,7 +11,7 @@ export interface LlmExplanation {
 }
 
 export async function generateExplanation(riskData: any): Promise<LlmExplanation> {
-  const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+  const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
   const prompt = `
     As a clinical pharmacogenomics expert, explain the following risk assessment to a healthcare provider.
