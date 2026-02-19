@@ -104,3 +104,9 @@ curl -X POST http://localhost:3000/api/analyze \
 - **TypeScript**: Typed development for better maintainability.
 - **LLM**: Google Gemini API for natural language clinical explanations.
 - **VCF Parsing**: Custom readline-based streaming parser.
+
+## Linkedin URL - https://www.linkedin.com/posts/devansh-kumar-609205330_rift2026-pharmaguard-pharmacogenomics-ugcPost-7430371825957740544-sWl3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFNS_SkBKRhXJviYt-05pL4b2Q62iq_AJdk
+
+## Live Demo Link - https://pharmaguard-lrvv.onrender.com/
+
+## Team Members - Devansh Kumar (Leader), Ayush kumar Gupta (Member)
