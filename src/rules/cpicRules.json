@@ -1,0 +1,106 @@
+{
+  "genes": {
+    "CYP2D6": {
+      "diplotype_to_phenotype": {
+        "*1/*1": "NM",
+        "*1/*4": "IM",
+        "*4/*4": "PM",
+        "*1/*10": "IM",
+        "*10/*10": "IM",
+        "*1/*2": "RM",
+        "*2/*2": "RM",
+        "*1/*1xN": "URM"
+      },
+      "drug_risks": {
+        "CODEINE": {
+          "PM": { "risk": "Ineffective", "severity": "moderate", "recommendation": "Avoid codeine due to lack of efficacy. Consider alternative analgesics like morphine or non-opioids." },
+          "IM": { "risk": "Adjust Dosage", "severity": "moderate", "recommendation": "Use standard starting dose. Monitor for efficacy and side effects." },
+          "NM": { "risk": "Safe", "severity": "none", "recommendation": "Use label recommended dose." },
+          "RM": { "risk": "Safe", "severity": "none", "recommendation": "Use label recommended dose." },
+          "URM": { "risk": "Toxic", "severity": "critical", "recommendation": "Avoid codeine due to risk of toxicity. Consider alternative analgesics." }
+        }
+      }
+    },
+    "CYP2C19": {
+      "diplotype_to_phenotype": {
+        "*1/*1": "NM",
+        "*1/*2": "IM",
+        "*2/*2": "PM",
+        "*1/*17": "RM",
+        "*17/*17": "URM"
+      },
+      "drug_risks": {
+        "CLOPIDOGREL": {
+          "PM": { "risk": "Ineffective", "severity": "high", "recommendation": "Avoid clopidogrel. Consider alternative P2Y12 inhibitor like prasugrel or ticagrelor." },
+          "IM": { "risk": "Ineffective", "severity": "moderate", "recommendation": "Avoid clopidogrel. Consider alternative P2Y12 inhibitor like prasugrel or ticagrelor." },
+          "NM": { "risk": "Safe", "severity": "none", "recommendation": "Standard dose of clopidogrel." },
+          "RM": { "risk": "Safe", "severity": "none", "recommendation": "Standard dose of clopidogrel." },
+          "URM": { "risk": "Safe", "severity": "none", "recommendation": "Standard dose of clopidogrel." }
+        }
+      }
+    },
+    "CYP2C9": {
+      "diplotype_to_phenotype": {
+        "*1/*1": "NM",
+        "*1/*2": "IM",
+        "*1/*3": "IM",
+        "*2/*2": "PM",
+        "*2/*3": "PM",
+        "*3/*3": "PM"
+      },
+      "drug_risks": {
+        "WARFARIN": {
+          "PM": { "risk": "Toxic", "severity": "high", "recommendation": "Significant dose reduction required. Monitor INR closely." },
+          "IM": { "risk": "Adjust Dosage", "severity": "moderate", "recommendation": "Moderate dose reduction required. Monitor INR closely." },
+          "NM": { "risk": "Safe", "severity": "none", "recommendation": "Standard starting dose." }
+        }
+      }
+    },
+    "SLCO1B1": {
+      "diplotype_to_phenotype": {
+        "*1/*1": "NM",
+        "*1/*5": "IM",
+        "*5/*5": "PM"
+      },
+      "drug_risks": {
+        "SIMVASTATIN": {
+          "PM": { "risk": "Toxic", "severity": "high", "recommendation": "Avoid high dose simvastatin (80mg). Consider lower dose or alternative statin." },
+          "IM": { "risk": "Adjust Dosage", "severity": "moderate", "recommendation": "Monitor for myopathy. Consider lower dose." },
+          "NM": { "risk": "Safe", "severity": "none", "recommendation": "Standard dosing." }
+        }
+      }
+    },
+    "TPMT": {
+      "diplotype_to_phenotype": {
+        "*1/*1": "NM",
+        "*1/*2": "IM",
+        "*1/*3A": "IM",
+        "*1/*3B": "IM",
+        "*1/*3C": "IM",
+        "*2/*2": "PM",
+        "*3A/*3A": "PM"
+      },
+      "drug_risks": {
+        "AZATHIOPRINE": {
+          "PM": { "risk": "Toxic", "severity": "critical", "recommendation": "Drastic dose reduction (10-fold) and frequent monitoring, or consider alternative." },
+          "IM": { "risk": "Adjust Dosage", "severity": "high", "recommendation": "Reduce dose significantly and monitor for toxicity." },
+          "NM": { "risk": "Safe", "severity": "none", "recommendation": "Standard starting dose." }
+        }
+      }
+    },
+    "DPYD": {
+      "diplotype_to_phenotype": {
+        "*1/*1": "NM",
+        "*1/*2A": "IM",
+        "*2A/*2A": "PM"
+      },
+      "drug_risks": {
+        "FLUOROURACIL": {
+          "PM": { "risk": "Toxic", "severity": "critical", "recommendation": "Avoid fluorouracil. Extreme risk of severe or fatal toxicity." },
+          "IM": { "risk": "Adjust Dosage", "severity": "high", "recommendation": "Significant dose reduction required. Monitor closely for toxicity." },
+          "NM": { "risk": "Safe", "severity": "none", "recommendation": "Standard dosing." }
+        }
+      }
+    }
+  }
+}

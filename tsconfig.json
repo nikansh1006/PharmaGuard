@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    /* File Layout */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* Environment */
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "types": ["node"],
+
+    /* Output */
+    "sourceMap": true,
+
+    /* Strict Type Checking */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    /* Node-friendly */
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
